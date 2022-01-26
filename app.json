@@ -1,0 +1,37 @@
+{
+    "name": "Allbot",
+    "description": "Yonetim botu",
+    "keywords": [
+        "bot",
+        "telegram",
+        "staff",
+        "yonetim"
+    ],
+    "repository": "https://github.com/twodrk/allbot",
+    "env": {
+        "ADMINS ": {
+            "description": "",
+            "required": "True"
+        },
+        "BOTTOKEN": {
+            "description": "",
+            "required": "True"
+        },
+        "IP_ADDR": {
+            "description": "",
+            "required": "True"
+        },
+        "PORT_NUM ": {
+            "description": "0 olarak kals\u0131n",
+            "required": "True",
+            "value": "0"
+        }
+    },
+    "stack": "heroku-20",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}

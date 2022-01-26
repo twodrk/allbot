@@ -19,12 +19,12 @@
         },
         "IP_ADDR": {
             "description": "",
-            "required": "True"
+            "required": "False"
         },
         "PORT_NUM ": {
             "description": "0 olarak kals\u0131n",
             "required": "True",
-            "value": "0"
+            "value": "False"
         }
     },
     "stack": "heroku-20",

@@ -1,0 +1,41 @@
+{
+    "name": "Allsbot",
+    "description": "S",
+    "keywords": [
+        "telegram",
+        "key",
+        "bot",
+        "staff",
+        "yt"
+    ],
+    "repository": "https://github.com/twodrk/allbot",
+    "env": {
+        "ADMINS ": {
+            "description": "admin id",
+            "required": "True",
+            "value": "1,2"
+        },
+        "BOTTOKEN ": {
+            "description": "bot tokeni",
+            "required": "True",
+            "value": "token"
+        },
+        "IP_ADDR ": {
+            "description": "ipyaz",
+            "required": "False",
+            "value": "ip"
+        },
+        "PORT_NUM ": {
+            "description": "port",
+            "required": "True",
+            "value": "0"
+        }
+    },
+    "stack": "heroku-20",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
